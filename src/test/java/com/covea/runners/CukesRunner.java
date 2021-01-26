@@ -9,10 +9,11 @@ import org.junit.runner.RunWith;
         plugin = {"pretty","json:target/cucumber.json",
                 "html:target/default-html-reports",
                 "rerun:target/rerun.txt"},
-        features = "src/test/resources/features",
+        features = {"src/test/resources/features",
+                   "src/test/resources/features2"},
         glue = "com/covea/step_definitions",
         dryRun = false,
-        tags="@quote"
+        tags="@negative"
 )
 
 

@@ -1,6 +1,6 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
         "line": 3,
@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1905441462,
+              "duration": 3689498307,
               "status": "passed"
             },
             "line": 4,
@@ -24,272 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-21T07:03:06.552Z",
+        "start_timestamp": "2021-01-26T19:50:55.872Z",
         "before": [
           {
             "result": {
-              "duration": 2999258562,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 6,
-        "name": "A invalid email address is entered",
-        "description": "",
-        "id": "covea-scenarios;a-invalid-email-address-is-entered",
-        "after": [
-          {
-            "result": {
-              "duration": 82992324,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1186691918,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "an invalid email address is entered",
-            "match": {
-              "location": "QuotePageSteps.an_invalid_email_address_is_entered()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 84096546,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "an error is displayed",
-            "match": {
-              "location": "QuotePageSteps.an_error_is_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@quote"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1897392171,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "the user is on the quote page",
-            "match": {
-              "location": "QuotePageSteps.the_user_is_on_the_quote_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-01-21T07:03:12.841Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2288739992,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 9,
-        "name": "A valid email address is entered",
-        "description": "",
-        "id": "covea-scenarios;a-valid-email-address-is-entered",
-        "after": [
-          {
-            "result": {
-              "duration": 79260853,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1159256639,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "a valid email address is entered",
-            "match": {
-              "location": "QuotePageSteps.a_valid_email_address_is_entered()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 81028528,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "no error is displayed",
-            "match": {
-              "location": "QuotePageSteps.no_error_is_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@quote"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2027604958,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "the user is on the quote page",
-            "match": {
-              "location": "QuotePageSteps.the_user_is_on_the_quote_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-01-21T07:03:18.349Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2275342366,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 12,
-        "name": "Email address and confirm email address do not match",
-        "description": "",
-        "id": "covea-scenarios;email-address-and-confirm-email-address-do-not-match",
-        "after": [
-          {
-            "result": {
-              "duration": 80129502,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1217973598,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "a valid email address is entered",
-            "match": {
-              "location": "QuotePageSteps.a_valid_email_address_is_entered()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 92350725,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "a different valid confirm email address is entered",
-            "match": {
-              "location": "QuotePageSteps.a_different_valid_confirm_email_address_is_entered()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 87365033,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "an error for email is displayed",
-            "match": {
-              "location": "QuotePageSteps.anErrorForEmailIsDisplayed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@quote"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1957498478,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "the user is on the quote page",
-            "match": {
-              "location": "QuotePageSteps.the_user_is_on_the_quote_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-01-21T07:03:24.132Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2226917635,
+              "duration": 17994285691,
               "status": "passed"
             },
             "match": {
@@ -298,326 +37,83 @@
           }
         ],
         "line": 16,
-        "name": "Email address and confirm email address match",
+        "name": "Quote Negative Scenarios",
         "description": "",
-        "id": "covea-scenarios;email-address-and-confirm-email-address-match",
+        "id": "covea-scenarios;quote-negative-scenarios;;2",
         "after": [
           {
             "result": {
-              "duration": 77709747,
+              "duration": 80682915,
               "status": "passed"
             },
             "match": {
-              "location": "Hooks.tearDown()"
+              "location": "Hooks.tearDown(Scenario)"
             }
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1166790250,
+              "duration": 10191584840,
               "status": "passed"
             },
-            "line": 17,
-            "name": "a valid email address is entered",
+            "line": 8,
+            "name": "the user insert invalid \"Goksa1\" or \"Cavdar\" or \"goksal@gmail.com\" or \"07776084567\" or \"05\" or \"01\" or \"2001\" or \"M8 5SH\" or \"12345678\" or \"05-98-03\"",
             "match": {
-              "location": "QuotePageSteps.a_valid_email_address_is_entered()"
+              "arguments": [
+                {
+                  "val": "\"Goksa1\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Cavdar\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"goksal@gmail.com\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"07776084567\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"05\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"01\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"2001\"",
+                  "offset": 103
+                },
+                {
+                  "val": "\"M8 5SH\"",
+                  "offset": 113
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 125
+                },
+                {
+                  "val": "\"05-98-03\"",
+                  "offset": 139
+                }
+              ],
+              "location": "QuotePageSteps.theUserInsertInvalidOrOrOrOrOrOrOrOrOrOr(String,String,String,String,String,String,String,String,String,String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 92627105,
+              "duration": 91004703,
               "status": "passed"
             },
-            "line": 18,
-            "name": "the same valid confirm email address is entered",
-            "match": {
-              "location": "QuotePageSteps.the_same_valid_confirm_email_address_is_entered()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 87342891,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "no error for email is displayed",
-            "match": {
-              "location": "QuotePageSteps.noErrorForEmailIsDisplayed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@quote"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1922064614,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "the user is on the quote page",
-            "match": {
-              "location": "QuotePageSteps.the_user_is_on_the_quote_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-01-21T07:03:29.743Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2355535258,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 20,
-        "name": "A invalid date of birth is entered",
-        "description": "",
-        "id": "covea-scenarios;a-invalid-date-of-birth-is-entered",
-        "after": [
-          {
-            "result": {
-              "duration": 81858008,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1434753170,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "an invalid date of birth is entered",
-            "match": {
-              "location": "QuotePageSteps.an_invalid_date_of_birth_is_entered()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 82710619,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "an error for date of birth is displayed",
-            "match": {
-              "location": "QuotePageSteps.anErrorForDateOfBirthIsDisplayed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@quote"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2051763778,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "the user is on the quote page",
-            "match": {
-              "location": "QuotePageSteps.the_user_is_on_the_quote_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-01-21T07:03:35.622Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2599859977,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 23,
-        "name": "Postcode lookup for valid postcode",
-        "description": "",
-        "id": "covea-scenarios;postcode-lookup-for-valid-postcode",
-        "after": [
-          {
-            "result": {
-              "duration": 78091562,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1761240854,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "they complete the Your Details section",
-            "match": {
-              "location": "QuotePageSteps.they_complete_the_Your_Details_section()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 107673132,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "enter a valid postcode and clicks find address",
-            "match": {
-              "location": "QuotePageSteps.enter_a_valid_postcode_and_clicks_find_address()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1434027083,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "a list of addresses is shown",
-            "match": {
-              "location": "QuotePageSteps.a_list_of_addresses_is_shown()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@quote"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2175454059,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "the user is on the quote page",
-            "match": {
-              "location": "QuotePageSteps.the_user_is_on_the_quote_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-01-21T07:03:43.658Z",
-        "before": [
-          {
-            "result": {
-              "duration": 3754869713,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 27,
-        "name": "Invalid account number and sort code combination",
-        "description": "",
-        "id": "covea-scenarios;invalid-account-number-and-sort-code-combination",
-        "after": [
-          {
-            "result": {
-              "duration": 78590788,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2479512416,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "they complete all sections above Direct Debit Details",
-            "match": {
-              "location": "QuotePageSteps.they_complete_all_sections_above_Direct_Debit_Details()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 399628505,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "enter an invalid account number - sort code combination is entered",
-            "match": {
-              "location": "QuotePageSteps.enterAnInvalidAccountNumberSortCodeCombinationIsEntered()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 67089153,
-              "status": "passed"
-            },
-            "line": 30,
+            "line": 9,
             "name": "an error is displayed",
             "match": {
               "location": "QuotePageSteps.an_error_is_displayed()"
@@ -627,7 +123,7 @@
         ],
         "tags": [
           {
-            "name": "@quote"
+            "name": "@negative"
           }
         ]
       },
@@ -640,7 +136,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1882066438,
+              "duration": 1339158160,
               "status": "passed"
             },
             "line": 4,
@@ -653,11 +149,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-21T07:03:52.616Z",
+        "start_timestamp": "2021-01-26T19:51:27.960Z",
         "before": [
           {
             "result": {
-              "duration": 2294072226,
+              "duration": 2530746169,
               "status": "passed"
             },
             "match": {
@@ -665,64 +161,94 @@
             }
           }
         ],
-        "line": 31,
-        "name": "Quote form completed",
+        "line": 17,
+        "name": "Quote Negative Scenarios",
         "description": "",
-        "id": "covea-scenarios;quote-form-completed",
+        "id": "covea-scenarios;quote-negative-scenarios;;3",
         "after": [
           {
             "result": {
-              "duration": 81119280,
+              "duration": 131420973,
               "status": "passed"
             },
             "match": {
-              "location": "Hooks.tearDown()"
+              "location": "Hooks.tearDown(Scenario)"
             }
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 6588011838,
+              "duration": 6680240194,
               "status": "passed"
             },
-            "line": 32,
-            "name": "they complete all sections with valid information",
+            "line": 8,
+            "name": "the user insert invalid \"Goks?\" or \"Cavdar\" or \"goksal@gmail.com\" or \"07776084567\" or \"05\" or \"01\" or \"2001\" or \"M8 5SH\" or \"12345678\" or \"05-98-03\"",
             "match": {
-              "location": "QuotePageSteps.they_complete_all_sections_with_valid_information()"
+              "arguments": [
+                {
+                  "val": "\"Goks?\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Cavdar\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"goksal@gmail.com\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"07776084567\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"05\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"01\"",
+                  "offset": 94
+                },
+                {
+                  "val": "\"2001\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"M8 5SH\"",
+                  "offset": 112
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 124
+                },
+                {
+                  "val": "\"05-98-03\"",
+                  "offset": 138
+                }
+              ],
+              "location": "QuotePageSteps.theUserInsertInvalidOrOrOrOrOrOrOrOrOrOr(String,String,String,String,String,String,String,String,String,String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 5241344806,
+              "duration": 87729870,
               "status": "passed"
             },
-            "line": 33,
-            "name": "click continue",
+            "line": 9,
+            "name": "an error is displayed",
             "match": {
-              "location": "QuotePageSteps.click_continue()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 33238576,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "the summary page is displayed",
-            "match": {
-              "location": "QuotePageSteps.the_summary_page_is_displayed()"
+              "location": "QuotePageSteps.an_error_is_displayed()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@quote"
+            "name": "@negative"
           }
         ]
       }
@@ -731,16 +257,7 @@
     "description": "",
     "id": "covea-scenarios",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Quote.feature",
-    "tags": [
-      {
-        "name": "@quote",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "uri": "file:src/test/resources/features2/QuoteNegative.feature",
+    "tags": []
   }
 ]

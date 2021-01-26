@@ -5,6 +5,7 @@ import com.covea.utilities.BrowserUtils;
 import io.cucumber.java.en.*;
 
 import org.junit.Assert;
+import org.openqa.selenium.support.ui.Select;
 
 public class QuotePageSteps {
 
@@ -13,7 +14,7 @@ public class QuotePageSteps {
 
     @Given("the user is on the quote page")
     public void the_user_is_on_the_quote_page() {
-        quotePage.navigateToHomepage();
+       // quotePage.navigateToHomepage();
         quotePage.clickStart();
         String ExpectedPageTitle = "Application - Technical Test Automation";
         Assert.assertEquals(ExpectedPageTitle, quotePage.getPageTitle());
@@ -125,6 +126,7 @@ public class QuotePageSteps {
         quotePage.validDirectDebitDetails();
     }
 
+
     @When("click continue")
     public void click_continue() {
         quotePage.continueButton.click();
@@ -135,7 +137,14 @@ public class QuotePageSteps {
         BrowserUtils.waitForVisibility(quotePage.quoteConfirmation,20);
         String ExpectedText = "Quote Confirmation";
         Assert.assertEquals(ExpectedText, quotePage.quoteConfirmation.getText());
+    }
 
+
+
+    @When("the user insert invalid {string} or {string} or {string} or {string} or {string} or {string} or {string} or {string} or {string} or {string}")
+    public void theUserInsertInvalidOrOrOrOrOrOrOrOrOrOr(String fName, String sName, String email, String phone, String dayOB, String monthOB, String yearOB, String postC, String accNum, String sortCode) {
+
+        quotePage.negativeScenario( fName,  sName,  email,  phone,  dayOB,  monthOB,  yearOB,  postC,  accNum,  sortCode);
     }
 
 

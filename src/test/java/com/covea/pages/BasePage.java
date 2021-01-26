@@ -17,11 +17,11 @@ public abstract class BasePage {
     @FindBy(css = "[title='Get Quote']")
     public WebElement start;
 
-    public void navigateToHomepage(){
-        Driver.get().get(ConfigurationReadar.get("url"));
-        Driver.get().manage().window().maximize();
-        Driver.get().manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-    }
+//    public void navigateToHomepage(){
+//        Driver.get().get(ConfigurationReadar.get("url"));
+//        Driver.get().manage().window().maximize();
+//        Driver.get().manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+//    }
 
     public void clickStart(){
         start.click();
