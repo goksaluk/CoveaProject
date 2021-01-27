@@ -165,12 +165,12 @@ public class QuotePage extends BasePage {
     }
 
 
-    public void negativeScenario(String fName, String sName, String email, String phone, String dayOB, String monthOB, String yearOB, String postC, String accNum, String sortCod){
+    public void negativeScenarios(String fName, String sName, String email, String phone, String dayOB, String monthOB, String yearOB, String postC, String accNum, String sortCod){
 
         BrowserUtils.waitForClickablility(selectButton,15);
         Select select =new Select(selectButton);
         select.selectByValue("Mr");
-        BrowserUtils.waitForClickablility(firstName,10);
+        BrowserUtils.waitForClickablility(firstName,15);
         firstName.sendKeys(fName);
         surname.sendKeys(sName);
         emailAddress.sendKeys(email);
@@ -193,8 +193,6 @@ public class QuotePage extends BasePage {
         confirmAccHolder.click();
         Select sel = new Select(selectAboutHear);
         sel.selectByIndex(2);
-        BrowserUtils.wait(3);
-        //click_continue();
     }
 
 

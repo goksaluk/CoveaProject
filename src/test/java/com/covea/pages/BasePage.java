@@ -10,8 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 public abstract class BasePage {
 
-    public BasePage() {
-        PageFactory.initElements(Driver.get(), this);
+    public BasePage() { PageFactory.initElements(Driver.get(), this);
     }
 
     @FindBy(css = "[title='Get Quote']")

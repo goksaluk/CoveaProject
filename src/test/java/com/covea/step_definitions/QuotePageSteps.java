@@ -144,7 +144,7 @@ public class QuotePageSteps {
     @When("the user insert invalid {string} or {string} or {string} or {string} or {string} or {string} or {string} or {string} or {string} or {string}")
     public void theUserInsertInvalidOrOrOrOrOrOrOrOrOrOr(String fName, String sName, String email, String phone, String dayOB, String monthOB, String yearOB, String postC, String accNum, String sortCode) {
 
-        quotePage.negativeScenario( fName,  sName,  email,  phone,  dayOB,  monthOB,  yearOB,  postC,  accNum,  sortCode);
+        quotePage.negativeScenarios(fName,  sName,  email,  phone,  dayOB,  monthOB,  yearOB,  postC,  accNum,  sortCode);
     }
 
 
