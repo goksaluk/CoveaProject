@@ -27,10 +27,7 @@ public class Example {
             System.out.println("biggestSum = " + biggestSum);
             System.out.println(numbers[x]+", "+numbers[x+1]+", "+numbers[x+2]);
             check[x]=Integer.MIN_VALUE;
-
         }
-
-
     }
 
 

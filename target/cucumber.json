@@ -1,0 +1,188 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1622309039,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the quote page",
+            "match": {
+              "location": "QuotePageSteps.the_user_is_on_the_quote_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-27T19:43:06.796Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2884372125,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "A invalid email address is entered",
+        "description": "",
+        "id": "covea-scenarios;a-invalid-email-address-is-entered",
+        "after": [
+          {
+            "result": {
+              "duration": 76911166,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1185132786,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "an invalid email address is entered",
+            "match": {
+              "location": "QuotePageSteps.an_invalid_email_address_is_entered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80634952,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "an error is displayed",
+            "match": {
+              "location": "QuotePageSteps.an_error_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@quote"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1529880310,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the quote page",
+            "match": {
+              "location": "QuotePageSteps.the_user_is_on_the_quote_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-27T19:43:12.649Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2303075877,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "A valid email address is entered",
+        "description": "",
+        "id": "covea-scenarios;a-valid-email-address-is-entered",
+        "after": [
+          {
+            "result": {
+              "duration": 79217820,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1163875922,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "a valid email address is entered",
+            "match": {
+              "location": "QuotePageSteps.a_valid_email_address_is_entered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79086646,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "no error is displayed",
+            "match": {
+              "location": "QuotePageSteps.no_error_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@quote"
+          }
+        ]
+      }
+    ],
+    "name": "Covea Scenarios",
+    "description": "",
+    "id": "covea-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Quote.feature",
+    "tags": [
+      {
+        "name": "@quote",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

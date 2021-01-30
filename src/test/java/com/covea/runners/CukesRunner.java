@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                    "src/test/resources/features2"},
         glue = "com/covea/step_definitions",
         dryRun = false,
-        tags="@negative"
+        tags="@quote"
 )
 
 

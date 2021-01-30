@@ -17,7 +17,8 @@ public class QuotePage extends BasePage {
     @FindBy(xpath = "//select[@name='Questions[14].Value']")
     public WebElement selectButton;
 
-    @FindBy(css = "[name='Questions[15].Value']")
+    //@FindBy(css = "[name='Questions[15].Value']") or
+    @FindBy(name = "Questions[15].Value")
     public WebElement firstName;
 
     @FindBy(css = "[name='Questions[16].Value']")
@@ -86,7 +87,7 @@ public class QuotePage extends BasePage {
     @FindBy(xpath = "(//*[contains(@class,'validation-error')])[1]")  // or //*[contains(@class,'input-validation-error')]
     public WebElement errorAccountNum;
 
-    @FindBy(xpath = "(//*[contains(@class,'validation-error')])[3]") // or //*[contains(@class,'input-validation-error')]
+    @FindBy(xpath = "(//*[contains(@class,'validation-error')])[3]")
     public WebElement errorSortCode;
 
     @FindBy(xpath = "//*[@name='Questions[62].Value'][1]")

@@ -11,6 +11,7 @@ Feature: Covea Scenarios
 
     Examples:
       | firstName | surname | emailAddress     | phoneNumber     | dayOB | monthOB | yearOB | postcode | accNumber | sortCode  |
+    #  | Goksa    | Cavdar  | goksal@gmail.com | 07776084567     | 05    | 01      | 2001   | M8 5SH   | 12345678  | 05-98-03  |
 
       #firstname
       | Goksa1    | Cavdar  | goksal@gmail.com | 07776084567     | 05    | 01      | 2001   | M8 5SH   | 12345678  | 05-98-03  |

@@ -17,7 +17,6 @@ import java.net.URL;
 
 public class Driver {
 
-    private static ThreadLocal<WebDriver> driverPool = new ThreadLocal<>();
 
         private Driver() {
     }
